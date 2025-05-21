@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Linktree ООО "Салутем"</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      flex-direction: column;
+    }
+    .container {
+      text-align: center;
+      max-width: 600px;
+      padding: 20px;
+    }
+    .profile {
+      margin-bottom: 30px;
+    }
+    .profile h1 {
+      font-size: 2em;
+      color: #333;
+      margin: 10px 0;
+    }
+    .profile p {
+      font-size: 1.2em;
+      color: #666;
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    .link-button {
+      background-color: #FFEF1B;
+      color: #000000;
+      text-decoration: none;
+      padding: 15px;
+      border-radius: 8px;
+      font-size: 1.1em;
+      transition: background-color 0.3s;
+    }
+    .link-button:hover {
+      background-color: #e6d617;
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 10px;
+      }
+      .profile h1 {
+        font-size: 1.5em;
+      }
+      .link-button {
+        font-size: 1em;
+        padding: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="profile">
+      <h1>ООО "Салутем"</h1>
+      <p>Производитель оборудования для ферм №1 в Республике Беларусь</p>
+    </div>
+    <div class="links">
+      <a href="https://salutem.by/" class="link-button">Наш сайт</a>
+      <a href="https://www.instagram.com/salutem_ooo?igsh=MXA1d3IzdWE4eDF4Yg==" class="link-button">Instagram</a>
+      <a href="https://www.tiktok.com/@salutem_ooo?_t=ZS-8wXf23ub73p&_r=1" class="link-button">TikTok</a>
+      <a href="https://www.youtube.com/@salutem_ooo" class="link-button">YouTube</a>
+    </div>
+  </div>
+</body>
+</html>
